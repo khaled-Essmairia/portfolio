@@ -1,0 +1,21 @@
+<section id="facts" class="facts">
+    <div class="container">
+  
+      <div class="section-title">
+        <h2>Facts</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      </div>
+  
+      <div class="row no-gutters">
+        <div *ngFor="let counter of counters; let i = index" class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" [attr.data-aos]="'fade-up'" [attr.data-aos-delay]="counter.delay">
+          <div class="count-box">
+            <i [class]="counter.icon"></i>
+            <span id="counter-{{i}}" class="purecounter">{{counter.end}}</span>
+            <p><strong>{{ counter.label }}</strong> {{ counter.description }}</p>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+  

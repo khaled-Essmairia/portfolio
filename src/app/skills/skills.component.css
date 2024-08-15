@@ -1,0 +1,23 @@
+.progress {
+    margin-bottom: 20px;
+  }
+  
+  .skill {
+    font-weight: 600;
+    font-size: 14px;
+  }
+  
+  .progress-bar-wrap {
+    background: #f7f7f7;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .progress-bar {
+    background-color: #5cb85c;
+    height: 6px;
+    border-radius: 4px;
+    width: 0;
+    transition: width 1s;
+  }
+  

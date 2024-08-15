@@ -1,0 +1,17 @@
+.portfolio-item {
+    margin-bottom: 30px;
+  }
+  
+  .d-none {
+    display: none !important;
+  }
+  
+  .filter-active {
+    color: #1bb1dc;
+  }
+  
+  .portfolio-links {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
